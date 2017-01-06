@@ -29,8 +29,26 @@
    <!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
-
+<style>
+ul  {
+    list-style: square url("sqpurple.gif");
+}
+mark { 
+    background-color: white;
+    color: blue;
+}
+.hyp{
+	color: #1b1890;
+    border: 3px solid #1b1890;
+    text-shadow: 1px 1px 1px grey;
+    padding: 7px;
+}
+.hyp_color{
+	color: blue;
+}
+</style>
 </head>
+
 
 <body id="top">
 
@@ -87,7 +105,7 @@
    	</div> <!-- /intro-content --> 
 
    	<ul class="intro-social">        
-		 <li><a href="https://github.com/TheBloodMage"><i class="fa fa-github"></i></a></li>
+		 <li><a href="https://github.com/joshinachiket"><i class="fa fa-github"></i></a></li>
 		 <li><a href="https://www.linkedin.com/in/nachiket-r-joshi"><i class="fa fa-linkedin"></i></a></li>
       </ul> <!-- /intro-social -->      	
 
@@ -268,78 +286,165 @@
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>SlackBot Framework - BotMan</h4>
-	   					<p>	<strong>DESCRIPTION: </strong><br>
-							Designing and Developing a framework to help users create Bots for Slack integration.
-							Bot helps slack (www.slack.com) users to integrate their processes, tools and mundane tasks using bots.
-							We have implemented the Agile Methodologies with Kanban Board (waffle.io).
-							Our framework is a hosted service which allows the following:<br>
+	   					<h4><a href="https://github.com/SJSU272Lab/Botman" class="hyp"><b class ="hyp_color">SlackBot Framework - BotMan</b></a></h4>	
+						
+	   					<p>	<strong><u><b>DESCRIPTION: </b></u></strong><br>
+							Designing and Developing a framework to help users create Bots for Slack integration.<br>
+							The website was an EC2 hosted framework to build and deploy SlackBots using Heroku cloud Platform-as-a-Service.<br>
+							The framework helps a user program the bots easily by providing a JavaScript editor environment using CodeMirror and JSHint.<br>
+							Bots help slack (www.slack.com) users to integrate their processes, tools and mundane tasks using bots.<br>
+							We have implemented the Agile Methodologies with Kanban Board (waffle.io).<br>
+							The hosted service allows the following:<br>
+							<div>
+							   <ul>
+								  <li>Let a user host their bots using Heroku Directories.</li>
+								  <li>Help a user program the bots easily by providing a javascript editor using CodeMirror and JSHint.</li>
+								  <li>Deploy to production(Slack) easily using Heroku cloud Platform-as-a-Service</li>
+								  <li>Complete directory management was provided to manage the Heroku directories and bot token reuse.</li>
+							   </ul>
+							</div>
 
-							a) Let a user host their bots using simple storage service S3.
-							b) Help a user program the bots easily by providing a javascript editor using CodeMirror and JSHint.
-							c) Deploy to production(Slack) easily using Heroku cloud Platform-as-a-Service<br>
+							The project was considered one of the best innovative ideas preseted and implemented and was featured in the blog: <br>
+							
+							<a href="https://www.linkedin.com/pulse/10-students-projects-showed-how-innovations-can-help-build-ranjan?trk=hp-feed-article-title-share">
+							<b class ="hyp_color">10 Student’s Projects Showed How Their Innovations Can Help Build A Better Future
+							<br>
+							<a href="https://www.youtube.com/watch?v=Vt0EBIN8PVo"><b class="hyp_color">Youtube to Introductory Video of the project</b></a><br>
+							<a href="https://www.youtube.com/watch?v=HM9CImS1Lug"><b class="hyp_color">Youtube to Demo of the project</b></a>
+							</a>
+							</b><br>
+							
+								<div>
+								  <div class="skillbox">
+								  <hr>
+								  <h4><p>Technology Stack</p></h4>
 
-							<b>Technology Stack: </b><br>
-							Node.js, AngularJS, JavaScript, jQuery, Heroku Cloud Platform, Amazon Simple Storage Service (S3), JSHint, CodeMirror, Git</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>San Jose State University California</h3>
-	   					<p>Sept 2016 - Present</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Designing an Ebay Marketplace Application using REST (Node.js), HTML 5 and Angular JS</h4>
-	   					<p><strong>DESCRIPTION: </strong><br>
-						•	An Ebay marketplace simulation designed in HTML6 and AngularJS. <br>
-						•	Server RESTFUL design in Node.JS. Tested in Chai, Mocha, JMeter. <br>
-						•	Encryptions used were PassportJS, BCrypt. <br>
-						•	Database used were MySQL and MongoDB. <br>
-						•	User analytics and tracking studied with Winston, Google analytics, Timeme, nvd3 Re-usable charts for d3.js and jQuery events. <br>
-						•	Improved the performance by 15% by implementig connection pooling, Tested for 10k concurrent connections. <br>
-						<strong>Technology Stack: </strong><br>
-						•	MEAN stack, JMeter, Chai, Mocha, PassportJS, RabbitMQ, JavaScript, jQuery</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>San Jose State University California</h3>
-	   					<p>Sept 2016 - Present</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Developed an Airbnb Prototype where users can rent a place, manage a trip, put up a place for rent and bid on using REST (Node.js), HTML5 and AngularJS</h4>
-	   					<p><p><strong>DESCRIPTION: </strong><br>
-						•	An Airbnb Prototype where users can rent a place, manage a trip, put up a place for rent and bid a property designed in HTML6 and AngularJS. <br>
-						•	Server RESTFUL design in Node.JS. Tested in Chai, Mocha, JMeter. <br>
-						•	Encryptions used were PassportJS, BCrypt. <br>
-						•	Database used were MySQL and MongoDB. <br>
-						•	User analytics and tracking studied with Winston, Google analytics, Timeme, nvd3 Re-usable charts for d3.js and jQuery event catching. <br>
-						•	Provided an Analytic Dashboard for hosts and website admins to display and manipulate the metrics similar like 
-							highest grossing properties, time spent per page, highest grossing hosts. <br>
-						•	Improved the performance by 15% by implementing connection pooling, Redis caching, RabbitMQ and MongoDB.<br>
-						•	Tested for 10k concurrent hosts, users and billing reports using JMeter. <br>
-						<strong>Technology Stack: </strong><br>
-						•	MEAN stack, JMeter, Chai, Mocha, Redis, PassportJS, RabbitMQ, JavaScript, jQuery, Cron
+									<code>Node.js</code>
+									<code>AngularJS</code>
+									<code>JavaScript</code>
+									<code>GIT</code>
+									<code>Amazon EC2</code>
+									<code>JMeter</code>
+									<code>JQuery</code>
+									<code>Heroku Cloud Platform</code>
+									<code>Amazon Simple Storage Service (S3)</code>
+									<code>JSHint</code>
+									<code>Passport JS</code>
+									<code>CodeMirror</code>
+								  </div>
+								</div>
 						</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>San Jose State University California</h3>
+	   					<p>Sept 2016 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+					<h4><a href="https://github.com/joshinachiket/eBay-prototype-using-RabbitMQ-MongoDB" class="hyp"><b class ="hyp_color">
+					Ebay Marketplace Application using REST and Mean Stack</b></a></h4>	
+
+	   					<p><strong><u><b>DESCRIPTION: </b></u></strong><br>
+						<div>
+							   <ul>
+								  <li>An Ebay marketplace simulation designed in HTML6 and AngularJS.</li>
+								  <li>Server RESTFUL design in Node.JS. Tested in Chai, Mocha, JMeter.</li>
+								  <li>Encryptions used were PassportJS, BCrypt.</li>
+								  <li>Database used were MySQL and MongoDB.</li>
+								  <li>User analytics and tracking studied with Winston, Google analytics, Timeme, nvd3 Re-usable charts for d3.js and jQuery events.</li>
+								  <li>Improved the performance by 15% by implementig connection pooling, Tested for 10k concurrent connections.</li>
+							   </ul>
+						</div>
+
+								<div>
+								  <div class="skillbox">
+								  <hr>
+								  <h4><p>Technology Stack</p></h4>
+									<code>Node.js</code>
+									<code>AngularJS</code>
+									<code>JavaScript</code>
+									<code>GIT</code>
+									<code>MEAN stack</code>
+									<code>JMeter</code>
+									<code>jQuery</code>
+									<code>Chai</code>
+									<code>Mocha</code>
+									<code>RabbitMQ</code>
+									<code>Passport.js</code>
+									<code>CodeMirror</code>
+								  </div>
+								</div>
+						</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>San Jose State University California</h3>
+	   					<p>Sept 2016 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+					<h4><a href="https://github.com/joshinachiket/airbnb-simulation-with-auction" class="hyp"><b class ="hyp_color">
+					Airbnb Prototype using REST and Mean Stack</b></a></h4>
+	   					<strong><u><b>DESCRIPTION: </b></u></strong><br>
+						
+						
+						<div>
+							   <ul>
+								  <li>An Airbnb Prototype where users can rent a place, manage a trip, put up a place for rent and bid a property designed in HTML6 and AngularJS.</li>
+								  <li>Server RESTFUL design in Node.JS. Tested in Chai, Mocha, JMeter.</li>
+								  <li>Encryptions used were PassportJS, BCrypt.</li>
+								  <li>Database used were MySQL and MongoDB.</li>
+								  <li>User analytics and tracking studied with Winston, Google analytics, Timeme, nvd3 Re-usable charts for d3.js and jQuery event catching.</li>
+								  <li>Provided an Analytic Dashboard for hosts and website admins to display and manipulate the metrics similar like 
+							highest grossing properties, time spent per page, highest grossing hosts.</li>
+							
+								<li>Improved the performance by 15% by implementing connection pooling, Redis caching, RabbitMQ and MongoDB.</li>
+							
+								<li>Tested for 10k concurrent hosts, users and billing reports using JMeter.</li>
+								
+							   </ul>
+						</div>
+
+								<div>
+								  <div class="skillbox">
+								  <hr>
+								  <h4><p><b>Technology Stack</b></p></h4>
+									<code>Node.js</code>
+									<code>AngularJS</code>
+									<code>JavaScript</code>
+									<code>GIT</code>
+									<code>MEAN stack</code>
+									<code>JMeter</code>
+									<code>jQuery</code>
+									<code>Chai</code>
+									<code>Mocha</code>
+									<code>RabbitMQ</code>
+									<code>Passport.js</code>
+									<code>Redis</code>
+									<code>Cron</code>
+								  </div>
+								</div>
+						</p>
+	   				</div>
+
+	   			</div>
 				
 				
 	   			<div class="timeline-block">
@@ -354,14 +459,26 @@
 	   				</div>
 
 	   				<div class="timeline-content">
-	   					<h4>Design and Development of a Multiplayer Game in Java using Software Design Patterns and following the Agile Methodology</h4>
-	   					<p>
-						This includes Designing a 2D - Multiplayer game using Greenfoot an interactive Java development environment and Software Design Patterns. <br>
-						We have implemented the Agile Methodologies with Kanban Board (waffle.io). <br>
-						We also have used Sprint Burndown Approach, documented Burndown charts and work logs. <br>
-						<strong>Technology Stack: </strong><br>
-						•	Java, Greenfoot, Software Design Patterns, Restlet, Git
-						</p>
+						<h4><a href="https://github.com/joshinachiket/cipher-wars" class="hyp"><b class ="hyp_color">
+							CIPHER-WARS</b></a></h4>
+						<div>
+							<ul>
+								<li>Design and Development of a Multiplayer Game in Java using Software Design Patterns and following the Agile Methodology.</li>
+								<li>This includes Designing a 2D - Multiplayer game using Greenfoot an interactive Java development environment and Software Design Patterns.</li>
+								<li>We have implemented the Agile Methodologies with Kanban Board (waffle.io).</li>
+								<li>We also have used Sprint Burndown Approach, documented Burndown charts and work logs..</li>
+							</ul>
+						</div>
+								
+						<div class="skillbox">
+							<hr>
+								<h4><p><b>Technology Stack</b></p></h4>
+									<code>Java</code>
+									<code>Greenfoot</code>
+									<code>Software Design Patterns</code>
+									<code>GIT</code>
+									<code>Restlet</code>
+						</div>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
